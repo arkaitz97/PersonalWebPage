@@ -1,1 +1,11 @@
-<slot></slot>
+<div>
+	<slot></slot>
+</div>
+<style>
+	div{
+		display: grid;
+		justify-items: center;
+		align-items: center;
+		height: 100vh;
+	}
+</style>

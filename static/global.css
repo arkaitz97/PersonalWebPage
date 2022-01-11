@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  font-family: 'Roboto';
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role='list'],
+ol[role='list'] {
+  list-style: none;
+}
+
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+   scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+a{
+	text-decoration: none;
+	color: inherit;
+}
+
+/* TODO add all color variables */
+.light-theme *{
+	--md-primary: #6750a4;
+	--md-primary-container: #eaddff;
+	--md-secondary: #625b71;
+	--md-secondary-container: #e8def8;
+	--md-tertiary: #7d5260;
+	--md-tertiary-container: #ffd8e4;
+	--md-surface: #fffbfe;
+	--md-surface-variant: #e7e0ec;
+	--md-background: #fffbfe;
+	--md-error: #b3261e;
+	--me-error-container: #f9dedc;
+	--md-on-primary: #ffffff;
+	--md-on-primary-container: #21005e;
+	--md-on-secondary: #ffffff;
+	--md-on-secondary-container: #1e192b;
+	--md-on-tertiary: #ffffff;
+	--md-on-tertiary-container: #370b1e;
+	--md-on-surface: #1c1b1f;
+	--md-on-surface-variant: #49454e;
+	--md-on-error: #ffffff;
+	--md-on-error-container: #370b1e;
+	--md-on-background: #1c1b1f;
+	--md-outline: #79747e;
+	--md-shadow: #000000;
+	--md-inverse-surface: #313033;
+	--md-inverse-on-surface: #f4eff4;
+	--md-inverse-primary: #d0bcff;
+
+}
+*{
+	--md-primary: #d0bcff;
+	--md-primary-container: #4f378b;
+	--md-secondary: #ccc2dc;
+	--md-secondary-container: #4a4458;
+	--md-tertiary: #efb8c8;
+	--md-tertiary-container: #633b48;
+	--md-surface: #1C1B1F;
+	--md-surface-variant: #49454f;
+	--md-background: #1c1b1f;
+	--md-error: #f2b8b5;
+	--me-error-container: #8c1d18;
+	--md-on-primary: #371e73;
+	--md-on-primary-container: #eaddff;
+	--md-on-secondary: #332d41;
+	--md-on-secondary-container: #e8def8;
+	--md-on-tertiary: #492532;
+	--md-on-tertiary-container: #ffd8e4;
+	--md-on-surface: #e6e1e5;
+	--md-on-surface-variant: #cac4d0;
+	--md-on-error: #601410;
+	--md-on-error-container: #f9dedc;
+	--md-on-background: #e6e1e5;
+	--md-outline: #938f99;
+	--md-shadow: #000000;
+	--md-inverse-surface: #e6e1e5;
+	--md-inverse-on-surface: #313033;
+	--md-inverse-primary: #6750a4;
+	--md-hover-state-layer-opacity: 0.08;
+	--md-typescale-label-medium-font: 500 12px 'Roboto';
+	--md-typescale-label-medium-line-height: 16px;
+}

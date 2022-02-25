@@ -1,5 +1,4 @@
 <div>
-	<slot></slot>
 </div>
 <style>
 	div{

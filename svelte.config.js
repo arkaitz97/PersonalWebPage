@@ -1,11 +1,11 @@
-//import adapter from '@sveltejs/adapter-auto';
-import cloudflare from "@sveltejs/adapter-auto";
+import adapter from '@sveltejs/adapter-static';
+//import cloudflare from "@sveltejs/adapter-auto";
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
 	kit: {
-		//adapter: adapter(),
-		adapter: cloudflare(),
+		adapter: adapter(),
+		//adapter: cloudflare(),
 		csp: {
 			directives: {
 				'script-src': ['strict-dynamic', 'static.cloudflareinsights.com'],

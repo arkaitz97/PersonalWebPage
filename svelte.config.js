@@ -7,9 +7,10 @@ const config = {
 		adapter: adapter(),
 		//adapter: cloudflare(),
 		csp: {
+			mode: auto
 			directives: {
-				'script-src': ['strict-dynamic', 'static.cloudflareinsights.com'],
-				'connect-src': ['cloudflareinsights.com']
+				//'script-src': ['strict-dynamic', 'static.cloudflareinsights.com'],
+				//'connect-src': ['cloudflareinsights.com']
 			}
 		},
 

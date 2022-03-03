@@ -8,10 +8,10 @@ const config = {
 		//adapter: cloudflare(),
 		csp: {
 			mode: auto
-			directives: {
+			//directives: {
 				//'script-src': ['strict-dynamic', 'static.cloudflareinsights.com'],
 				//'connect-src': ['cloudflareinsights.com']
-			}
+			//}
 		},
 
 		// hydrate the <div id="svelte"> element in src/app.html

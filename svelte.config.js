@@ -6,9 +6,15 @@ const config = {
 	kit: {
 		//adapter: adapter(),
 		adapter: cloudflare(),
+		csp: {
+			directives: {
+				'script-src': ['strict-dynamic', 'static.cloudflareinsights.com'],
+				'connect-src': ['cloudflareinsights.com']
+			}
+		},
 
 		// hydrate the <div id="svelte"> element in src/app.html
-		target: '#svelte'
+		//target: '#svelte'
 	}
 };
 

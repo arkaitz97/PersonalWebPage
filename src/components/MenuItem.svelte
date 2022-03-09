@@ -26,6 +26,7 @@
 		padding-bottom: 16px;
 		background: var(--md-surface);
 		position: relative;
+		text-decoration: none;
 	}
 
 	a.active{

@@ -61,4 +61,15 @@
 		width: 100%;
 		cursor: pointer;
 	}
+
+	@media screen and (min-width: 840px){
+		nav{
+			height: 100vh;
+		}
+		ul{
+			width: 256px;
+			grid-template-rows: auto;
+			grid-auto-flow: row;
+		}
+	}
 </style>
